@@ -1,0 +1,22 @@
+# Dependencies (rebuilt by running `npm install`)
+node_modules/
+
+# Secrets: database passwords, API keys, etc. Never commit these.
+.env
+.env.*
+!.env.example
+
+# Build output (rebuilt by running the build command)
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
